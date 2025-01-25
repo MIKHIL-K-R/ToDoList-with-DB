@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #333333; /* Dark gray background (Apple calculator background) */
+  color: #FFFFFF; /* White text for contrast */
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF; /* White text for the title */
+}
+
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #505050; /* Dark gray for the container background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+}
+
+#taskInput {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #D4D4D2; /* Light gray border (matches number buttons) */
+  border-radius: 4px;
+  background-color: #D4D4D2; /* Light gray for input background */
+  color: #333333; /* Dark gray text */
+}
+
+button {
+  padding: 10px 15px;
+  background: #FF9500; /* Orange for the main button (Apple calculator operations) */
+  color: #FFFFFF; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #E08600; /* Slightly darker orange on hover */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  background: #D4D4D2; /* Light gray for list item background */
+  margin-bottom: 5px;
+  border-radius: 4px;
+  color: #333333; /* Dark gray text */
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete {
+  color: #FF3B30; /* Apple red (like the calculator delete button) */
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: #CC3229; /* Darker red on hover */
+}
